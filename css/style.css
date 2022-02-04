@@ -1,0 +1,184 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+h2{
+    color: #406882;
+    font-size: 2em;
+	font-weight: bold;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.title {
+    margin: 0;
+    font-size: 1.45em;
+}
+
+
+.main-nav {
+    margin-top: 5px;
+}
+
+.logo a,
+.main-nav a {
+	padding: 5px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline;
+}
+
+.main-nav a {
+	color: #2D4263;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #F76E11;
+}
+
+.header,
+.main-nav {
+	display: flex;
+}
+
+.header{
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+	justify-content: space-between;
+    background-color: #B1D0E0;
+}
+
+.active{
+	/* color:  #2E4C6D; */
+	text-align: center;
+	background-color: white;
+}
+
+.active a{
+	text-decoration: none;
+    color: #2E4C6D;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    background-color: #2E4C6D;
+}
+
+.social a{
+    color: white;
+}
+
+.social a:hover {
+	color: #DADDFC;
+}
+
+/*Style the images*/
+img{
+    height: auto;
+    width: 300px;
+    border: 3px solid #DADDFC;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+img:hover{
+	border: dashed;
+	border-color:  #DADDFC;
+	box-shadow: 10px 10px #FC997C;
+}
+
+.photos{
+    margin: auto;
+    width: 100%;
+    /* border: 3px solid green; */
+    padding: 10px;
+    margin-left: 10%;
+}
+
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5px;
+}
+
+.skip {
+    color: #B8405E;
+}
+
+li{
+    text-align: center;
+}
+
+h3 {
+    color: #406882;
+    font-size: 1.2em;
+	font-weight: bold;
+    text-align: center;
+}
+
+#enfp{
+    text-align: center;
+}
+
+.music,
+.one-drama,
+.one-series,
+.one-movie {
+    /* height: auto;
+    width: 100%; */
+    border: 3px dashed #FC997C;
+    /* padding: 25px; */
+    border-radius: 10px;
+    /* margin: 20px; */
+    padding: 10px 10px;
+    margin: 10px 20px;
+}
+
+.music img,
+.one-drama img,
+.one-series img,
+.one-movie img {
+    width: 200px;
+    height: auto;
+    margin-left: 40%;
+    border: none;
+}
+
+.music:nth-child(odd):hover,
+.one-drama:nth-child(even):hover,
+.one-series:nth-child(even):hover,
+.one-movie:nth-child(even):hover {
+    background-color: #B1D0E0;
+}
+
+.music:nth-child(even):hover,
+.one-drama:nth-child(odd):hover,
+.one-series:nth-child(odd):hover,
+.one-movie:nth-child(odd):hover {
+    background-color: #F0ECE3;
+}
+
+.title a {
+    color: #2D4263;
+}
