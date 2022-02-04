@@ -41,7 +41,7 @@ a {
 }
 
 .main-nav a {
-	color: #2D4263;
+	color: white;
 	font-size: .99em;
 }
 
@@ -59,7 +59,7 @@ a {
     width: 100%;
     margin: 0 auto;
 	justify-content: space-between;
-    background-color: #B1D0E0;
+    background-color: #2E4C6D
 }
 
 .active{
@@ -180,5 +180,5 @@ h3 {
 }
 
 .title a {
-    color: #2D4263;
+    color: white;
 }
